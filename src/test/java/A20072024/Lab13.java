@@ -1,4 +1,4 @@
-package A202024;
+package A20072024;
 
 public class Lab13 {
     public static void main(String[] args) {

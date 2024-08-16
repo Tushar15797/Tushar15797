@@ -1,4 +1,4 @@
-package B11082024.Interface.Multiple_Inheritance;
+package B11082024.Interface.Multiple_Inheritance.Lab1;
 
 interface  Father {
     void loan();

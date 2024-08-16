@@ -1,4 +1,4 @@
-package B11082024.Interface.Multiple_Inheritance;
+package B11082024.Interface.Multiple_Inheritance.Lab1;
 
 //Interface to Interface -->Extend
 //Interface to Class     -->Implements
@@ -7,4 +7,5 @@ package B11082024.Interface.Multiple_Inheritance;
 public interface Mother {
     void loan();
     void loan(String b,String c);
+    void home();
 }

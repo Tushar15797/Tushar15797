@@ -1,6 +1,6 @@
-package B11082024.Interface.Multiple_Inheritance;
+package B11082024.Interface.Multiple_Inheritance.Lab1;
 
-public class Son implements Father,Mother{
+public class Son implements Father, Mother {
 
     @Override
     public void loan() {            //common Methods

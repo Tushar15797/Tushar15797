@@ -6,8 +6,9 @@ public class Labb152 {
     //Static - Block , Method (Data member), Function, Class
     public static void main(String[] args) {
         ATB a= new ATB();
+        a.qw();
+        ATB.as();
     }
-
 }
 
 class ATB{
@@ -21,5 +22,10 @@ class ATB{
     void qw(){
         System.out.println("2nd");
     }
-
+    static void as(){
+        System.out.println("Static Method");
+    }
+    static {
+        System.out.println("Load the class ?, I will Execute Second");
+    }
 }
