@@ -1,7 +1,6 @@
 package Aug.B18082024.Collection_Framework.List;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class L05 {
     //lab232
@@ -13,6 +12,8 @@ public class L05 {
         marks.add(55);
         marks.add(77);
         System.out.println(marks);
+
+        Collections.sort(marks, Comparator.reverseOrder());
         System.out.println(marks);
     }
 }
