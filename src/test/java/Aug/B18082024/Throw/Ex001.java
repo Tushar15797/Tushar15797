@@ -13,7 +13,8 @@ public class Ex001 {
         int x=sc.nextInt();
         if(x==0){
             throw new ArithmeticException("Enter non zero number");
+        }else{
+            System.out.println("Everything is Good");
         }
-
     }
 }
