@@ -1,4 +1,4 @@
-package Aug.B18082024.Throws;
+package Aug.B18082024.Exception.Throws;
 
 public class Ex2 {
     public static void main(String[] args) throws InterruptedException {

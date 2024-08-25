@@ -1,4 +1,4 @@
-package Aug.B18082024.Throw;
+package Aug.B18082024.Exception.Throw;
 
 import net.bytebuddy.implementation.bytecode.Throw;
 

@@ -1,4 +1,4 @@
-package Aug.B18082024.Throw;
+package Aug.B18082024.Exception.Throw;
 
 //Throw -- It is used to Create an Exception
 //Throws -> It is used to throw the Exception

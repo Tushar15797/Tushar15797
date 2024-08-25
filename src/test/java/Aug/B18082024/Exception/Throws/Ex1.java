@@ -1,4 +1,4 @@
-package Aug.B18082024.Throws;
+package Aug.B18082024.Exception.Throws;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,13 +10,12 @@ public class Ex1 {
         readFile();
     }
 
-    private static void readFile() throws FileNotFoundException,ArithmeticException {
+    private static void readFile() throws ArithmeticException, FileNotFoundException {
         String path="c://a.txt";
         File file =new File(path);
         FileReader fileReader=new FileReader(file);
         System.out.println("End the Program");
         int a=10/0;
         System.out.println(a);
-
     }
 }

@@ -1,4 +1,4 @@
-package Aug.B18082024.Throws;
+package Aug.B18082024.Exception.Throws;
 
 // Exception Passing --> Exception Passing Means if Sub class has error it passes to Parent also
 // Exception -> Hour on Method and Click on Extract then click on Method
@@ -13,8 +13,8 @@ public class Exception_Passing {
 
     private static void extracted1() {
         try {
-            Integer[] i= new Integer[2];
-            System.out.println(i[3]);
+            Integer[] i= new Integer[2];  //Length 2 -- 0,1 & Value[Null,Null]
+            System.out.println(i[3]);  // Axis 3 Index
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

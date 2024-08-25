@@ -1,6 +1,7 @@
 package Aug.B18082024.Collection_Framework.List;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class L01 {
@@ -13,7 +14,7 @@ public class L01 {
         //collection mylist3=new ArrayList(); //Dynamic Dispatch
         //List mylist= new ArrayList(); //Dynamic Dispatch
 
-        ArrayList mylist2=new ArrayList();
+        ArrayList mylist2=new ArrayList<>();
         mylist2.add("T");
         mylist2.add("U");
         mylist2.add("S");
@@ -23,13 +24,17 @@ public class L01 {
         mylist2.add(123);
         mylist2.add(true);
 
-        System.out.println(mylist2);
-        System.out.println(mylist2.size());
-        System.out.println(mylist2.contains("U"));
-        System.out.println(mylist2.contains("SH"));
-        System.out.println(mylist2.contains(123));
 
-        String s1= (String)mylist2.get(1);  // index Start With 0
-        System.out.println(s1);
+        System.out.println(mylist2);
+        mylist2.remove(1);
+        //mylist2.remove("A");
+        System.out.println(mylist2);
+//        System.out.println(mylist2.size());
+//        System.out.println(mylist2.contains("U"));
+//        System.out.println(mylist2.contains("SH"));
+//        System.out.println(mylist2.contains(123));
+//
+//        String s1= (String)mylist2.get(1);  // index Start With 0
+//        System.out.println(s1);
         }
 }

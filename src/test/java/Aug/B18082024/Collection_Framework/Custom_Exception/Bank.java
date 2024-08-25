@@ -1,5 +1,8 @@
 package Aug.B18082024.Collection_Framework.Custom_Exception;
 
+//Throw -> It is used to Create an Exception
+//try & Catch -> It is used to Handle the Exception
+//Throws -> Declares that a method might throw exceptions
 public class Bank {
     private String curerncy;
     private Integer amount;
