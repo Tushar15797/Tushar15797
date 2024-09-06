@@ -1,8 +1,6 @@
 package Aug.B18082024.Collection_Framework.List;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class L01 {
     public static void main(String[] args) {
@@ -23,7 +21,6 @@ public class L01 {
         mylist2.add("R");
         mylist2.add(123);
         mylist2.add(true);
-
 
         System.out.println(mylist2);
         mylist2.remove(1);

@@ -11,7 +11,6 @@ class A{
     }
 }
 
-
 class Company{
     public static void main(String[] args) {
         A ref= new A();

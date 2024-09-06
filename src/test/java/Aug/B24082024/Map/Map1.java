@@ -6,10 +6,12 @@ public class Map1 {
     public static void main(String[] args) {
         //Map - Key and Value pair
         //Most Used - Hash Map
+        //Duplicate Key not Allowed
 
         Map m=new HashMap();
         m.put("name","Tushar");
         m.put("ID","15");
+        m.put("ID1","15");
         m.put("Phone No","9970401904");
         System.out.println(m);
 
