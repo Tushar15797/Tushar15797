@@ -1,22 +1,10 @@
- class Runner {
+import org.testng.annotations.Test;
 
-     private int a = 10;
-     int b = 20;
+import java.util.LinkedHashSet;
 
-     public int geta() {
-         return a;
-     }
-
-     public void seta(int a) {
-         this.a = a;
+public class Runner {
+   @Test
+    public void a(){
+       System.out.println(10);
      }
  }
-    class b {
-       public static void main(String[] args) {
-           Runner a1=new Runner();
-           System.out.println(a1.geta());
-           a1.seta(20);
-           System.out.println(a1.geta());
-
-    }
-    }

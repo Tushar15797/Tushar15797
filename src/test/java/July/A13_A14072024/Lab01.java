@@ -6,7 +6,7 @@ public class Lab01 {
 //            System.out.println(a);
 //        }
         for (double a=0.0;a<10.0; a++){
-            System.out.println();
+            System.out.println(a);
         }
     }
 }
