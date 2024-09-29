@@ -19,5 +19,5 @@ public class Test001 {
                 .get()
                 .then().log().all()
                 .statusCode(200); // <201> but was <200>.
-    }
+          }
 }

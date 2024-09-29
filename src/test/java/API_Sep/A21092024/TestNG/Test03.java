@@ -10,13 +10,11 @@ public class Test03 {
         System.out.println("QA");
         Assert.assertTrue(true);
     }
-
     @Test(groups = {"qa","preprod", "reg"})
     public void RegRun(){
         System.out.println("Reg");
         Assert.assertTrue(false);
     }
-
     @Test(groups = {"dev","stage"})
     public void SmokeRun(){
         System.out.println("Smoke");

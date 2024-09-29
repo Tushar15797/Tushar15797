@@ -9,7 +9,6 @@ public class Test04 {
         System.out.println("I will run first");
         Assert.assertTrue(false);
     }
-
     @Test(dependsOnMethods = "serverStartedOk")
     public void method1() {
         System.out.println("method1");
