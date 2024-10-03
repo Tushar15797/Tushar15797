@@ -1,16 +1,32 @@
 
 public class Test {
+    //Encapsulation
+     private int id = 10;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    private String name = "Tushar";
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+}
+    class a{
     public static void main(String[] args) {
-        String a = null;
-        int b = 9;
-        System.out.println(a);
-        try {
-            System.out.println("PASS");
-            System.out.println(b / 0);
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println("FAIL ");
-        }
+       Test a1=new Test();
+        System.out.println(a1.getId());
+        a1.setName("Patil");
+        System.out.println(a1.getName());
     }
 }

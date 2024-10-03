@@ -3,10 +3,12 @@ package July.A28072024;
 public class Lab003 {
     String name;
     String color="Red";
-    void walk() {         System.out.println("Walk");
+    void walk() {
+        System.out.println("Walk");
     }
 
-    void talk() {         System.out.println("Talk");
+    void talk() {
+        System.out.println("Talk");
     }
 
     public static void main(String[] args) {

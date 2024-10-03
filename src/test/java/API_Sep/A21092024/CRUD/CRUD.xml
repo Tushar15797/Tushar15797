@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="2" preserve-order="true">
+    <test name="TCIntegration">
+        <classes>
+            <class name="API_Sep.A21092024.CRUD.TCIntegration"/>
+        </classes>
+    </test>
+</suite>
