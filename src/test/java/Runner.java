@@ -14,7 +14,7 @@ import java.util.LinkedHashSet;
 public class Runner{
     public static void main(String[] args) {
         a2 as = new a2();
-//        System.out.println(as.a);
+        System.out.println(as.a);
         System.out.println(as.b);
         System.out.println(as.c);
     }
